@@ -31,3 +31,23 @@
 .file-link.word {
   color: #3978b9;
 }
+
+/* Nút xem chi tiết bài tập */
+.project-detail {
+    display: inline-block;
+    padding: 11px 20px;
+    background-color: #193456;
+    color: #ffffff !important;
+    border: 1px solid #193456;
+    border-radius: 7px;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.25s ease;
+}
+
+.project-detail:hover {
+    background-color: #294d78;
+    border-color: #294d78;
+    transform: translateY(-2px);
+}
