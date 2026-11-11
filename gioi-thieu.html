@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu | Nguyễn Thiện Tâm</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: #F1EFE8;
+            color: #25251F;
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+        }
+        header {
+            background: #FAF9F5;
+            border-bottom: 1px solid #E4DDD2;
+            padding: 18px 6%;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-decoration: none;
+            color: #25251F;
+        }
+        nav .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px;
+        }
+        nav .menu a {
+            text-decoration: none;
+            color: #625B50;
+            font-size: 14px;
+        }
+        nav .menu a:hover,
+        nav .menu a.active { color: #A87955; }
+        .hero {
+            padding: 65px 20px;
+            background: #F1EFE8;
+            border-bottom: 1px solid #E4DDD2;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .label {
+            color: #A87955;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        h1 {
+            font-size: 42px;
+            line-height: 1.25;
+            margin: 15px 0;
+        }
+        h2 { font-size: 23px; }
+        p, li { font-size: 16px; color: #625B50; }
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: #FAF9F5;
+            border: 1px solid #E4DDD2;
+            border-radius: 20px;
+            padding: 28px;
+            margin-bottom: 22px;
+            box-shadow: 0 5px 20px rgba(70,55,35,.04);
+        }
+        .btn {
+            display: inline-block;
+            padding: 11px 20px;
+            border: 1px solid #D8C9B8;
+            border-radius: 12px;
+            color: #25251F;
+            text-decoration: none;
+            margin: 8px 8px 0 0;
+        }
+        .btn:hover {
+            background: #A87955;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #A87955;
+            border-top: 1px solid #E4DDD2;
+            background: #FAF9F5;
+        }
+        @media(max-width:650px) {
+            h1 { font-size: 32px; }
+            nav { justify-content: center; }
+            nav .menu { justify-content: center; gap: 13px; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a class="logo" href="index.html">MY PORTFOLIO.</a>
+        <div class="menu">
+            <a href="index.html">Trang chủ</a>
+            <a class="active" href="gioi-thieu.html">Giới thiệu</a>
+            <a href="hoc-van.html">Học vấn</a>
+            <a href="nang-luc.html">Năng lực</a>
+            <a href="du-an.html">Dự án</a>
+            <a href="lien-he.html">Liên hệ</a>
+        </div>
+    </nav>
+</header>
+
+<div class="hero">
+    <div class="container">
+        <div class="label">01 / ABOUT ME</div>
+        <h1>Giới thiệu về mình</h1>
+        <p>Tìm hiểu về bản thân, sở thích và hành trình học tập của mình.</p>
+    </div>
+</div>
+
+<main>
+    <section class="card">
+        <h2>Mình là ai?</h2>
+        <p>Xin chào! Mình là Nguyễn Thiện Tâm, sinh viên ngành Sư phạm Âm nhạc.</p>
+        <p>Mình yêu thích âm nhạc, đặc biệt là việc chơi nhạc cụ, tìm hiểu các phương pháp học tập và khám phá cách công nghệ số, trí tuệ nhân tạo có thể hỗ trợ học tập cũng như sáng tạo âm nhạc.</p>
+    </section>
+
+    <section class="card">
+        <h2>Sở thích của mình</h2>
+        <ul>
+            <li>Chơi nhạc cụ và tìm hiểu âm nhạc.</li>
+            <li>Khám phá công nghệ số và trí tuệ nhân tạo.</li>
+            <li>Sáng tạo nội dung và học hỏi những điều mới.</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Định hướng phát triển</h2>
+        <p>Mình mong muốn kết hợp kiến thức âm nhạc với kỹ năng công nghệ số, từng bước phát triển khả năng sáng tạo, học tập và giảng dạy âm nhạc trong tương lai.</p>
+    </section>
+
+    <a class="btn" href="index.html">← Trang chủ</a>
+    <a class="btn" href="hoc-van.html">Tiếp theo: Học vấn →</a>
+</main>
+
+<footer>© 2026 Nguyễn Thiện Tâm · Personal Portfolio</footer>
+
+</body>
+</html>
