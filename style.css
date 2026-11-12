@@ -476,3 +476,81 @@ footer {
         padding: 20px !important;
     }
 }
+
+/* =================================
+   GIAO DIEN PORTFOLIO TONE KEM
+================================= */
+
+/* Mau nen va chu chung */
+body {
+    background-color: #F0EEE7 !important;
+    color: #292D27 !important;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+/* Thanh menu */
+.site-header {
+    background-color: #FAF9F6 !important;
+    border-bottom: 1px solid #E3DED3 !important;
+}
+
+/* Cac khu vuc lon */
+.hero,
+.section,
+.page-hero {
+    background-color: #F0EEE7 !important;
+}
+
+/* Khung noi dung */
+section {
+    border-radius: 20px;
+}
+
+/* Cac the noi dung */
+.goal-card,
+.project,
+.skill-card,
+.about-text {
+    background-color: #FAF9F6 !important;
+    border: 1px solid #E3DED3;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+/* Tieu de */
+h1, h2, h3 {
+    color: #292D27 !important;
+}
+
+/* Mau nhan */
+.eyebrow,
+.section-label {
+    color: #A47753 !important;
+}
+
+/* Nut bam */
+button,
+.button,
+.btn {
+    border-radius: 12px;
+}
+
+/* Duong dan */
+a {
+    transition: all 0.25s ease;
+}
+
+/* Hieu ung khi di chuot */
+a:hover {
+    color: #A47753;
+}
+
+/* Anh */
+img {
+    border-radius: 14px;
+}
+
+/* Dam bao trang con cung nen */
+.page-container {
+    color: #292D27;
+}
